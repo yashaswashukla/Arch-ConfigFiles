@@ -1,0 +1,24 @@
+[pyprland]
+plugins = [
+    "scratchpads"
+]
+
+[scratchpads.mail]
+animation = "fromBottom"
+command = "betterbird"
+class = "eu.betterbird.Betterbird"
+unfocus = "hide"
+
+
+[scratchpads.kitty]
+animation = "fromBottom"
+command = "kitty --class kitty-dropterm"
+class = "kitty-dropterm"
+unfocus = "hide"
+
+[scratchpads.file]
+animation = "fromBottom"
+command = "nautilus -w"
+class = "org-gnome.Nautilus"
+unfocus = "hide"
+lazy = "true"
